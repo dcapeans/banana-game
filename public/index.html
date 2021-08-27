@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./styles/style.css">
+    <title>Banana Game</title>
+  </head>
+
+  <body>
+    <div id="game">
+      <div id="interface">
+        <div id="hearts">
+          <img alt="heart" src="./sprites/heart.png"/>
+          <img alt="heart" src="./sprites/heart.png"/>
+          <img alt="heart" src="./sprites/heart.png"/>
+          <img alt="heart" src="./sprites/heart.png"/>
+        </div>
+        <p id="score">Score: 0</p>
+      </div>
+      <canvas id="canvas"></canvas>
+      <div id="floor"></div>
+    </div>
+
+    <div id="gameElements">
+      <img src="./sprites/alien.png" alt="alien" id="player">
+      <img src="./sprites/banana.png" alt="banana" id="banana">
+      <img src="./sprites/red-apple.png" alt="apple" id="apple">
+      <img src="./sprites/orange.png" alt="orange" id="orange">
+      <img src="./sprites/strawberry.png" alt="strawberry" id="strawberry">
+      <img src="./sprites/watermelon.png" alt="watermelon" id="watermelon">
+      <img src="./sprites/bomb.png" alt="bomb" id="bomb">
+    </div>
+    <script src="./bundle.js"></script>
+  </body>
+</html>
